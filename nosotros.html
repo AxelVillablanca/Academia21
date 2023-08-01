@@ -4,8 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responisve.css">
     <link rel="icon" href="svg/logo.svg" />
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <title>Nosotros</title>
   </head>
   <body>
@@ -83,28 +85,37 @@
 
 
       <!--QUIENES SOMOS-->
-      <section class="margen">
+      <section class="margen" >
         <h1 class="titulo">QUIENES SOMOS</h1>
-
-        <p class="sub2">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, quia,
-          nisi libero aspernatur, ducimus possimus consectetur explicabo ex
-          doloribus architecto provident. Voluptas laudantium, velit dignissimos
-          similique impedit esse provident porro.
-        </p>
+        <div class="box1">
+          
+          <img src="svg/ilu1.svg" alt="" class="ilu1">
+  
+          <p class="sub2">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, quia,
+            nisi libero aspernatur, ducimus possimus consectetur explicabo ex
+            doloribus architecto provident. Voluptas laudantium, velit dignissimos
+            similique impedit esse provident porro.
+          </p>
+        </div>
+        
       </section>
     </header>
     <!--MISION-->
     <main id="mision">
         <h1 class="margen titulo">NUESTRA MISION</h1>
-        <p class="margen sub2">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae
-          suscipit explicabo repellat at odit quod ad, perferendis hic. Officia,
-          aliquam at alias accusantium officiis laboriosam rerum maxime
-          voluptatibus necessitatibus repellat!
-        </p>
-  
-  
+        <div class="box2">
+          <p class="margen sub2">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae
+            suscipit explicabo repellat at odit quod ad, perferendis hic. Officia,
+            aliquam at alias accusantium officiis laboriosam rerum maxime
+            voluptatibus necessitatibus repellat!
+          </p>
+    
+          <img src="svg/ilu2.svg" alt="" class="ilu2">
+        </div>
+        
+
         
   <!--REDES SOCIALES-->
         <div class="margen">
@@ -112,13 +123,13 @@
           <!--ICONOS-->
           <div class="social">
             <a href="#" class="iconos" data-aos="fade-right" data-aos-delay="300"
-              ><img src="Instagram_white.svg" alt=""
+              ><img src="svg/Instagram_white.svg" alt=""
             /></a>
             <a href="#" class="iconos" data-aos="fade-right" data-aos-delay="400"
-              ><img src="Facebook_white.svg" alt=""
+              ><img src="svg/Facebook_white.svg" alt=""
             /></a>
             <a href="#" class="iconos" data-aos="fade-right" data-aos-delay="500"
-              ><img src="Youtube_white.svg" alt=""
+              ><img src="svg/Youtube_white.svg" alt=""
             /></a>
           </div>
         </div>
@@ -141,5 +152,10 @@
       <div class="cursorfx"></div>
 
     <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
