@@ -544,14 +544,14 @@ footer p{
 
 @font-face {
   font-family: "Murs Gothic";
-  src: url(/fonts/mursgothic-widedark.ttf);
+  src: url(../fonts/mursgothic-widedark.ttf);
   font-style: bold;
   font-weight: bold;
 }
 
 @font-face {
   font-family: "Helvetica";
-  src: url(/fonts/Helvetica-Bold.ttf);
+  src: url(../fonts/Helvetica-Bold.ttf);
   font-style: bold;
   font-weight: bold;
 }
