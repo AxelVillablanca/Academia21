@@ -44,9 +44,9 @@ ul li {
 
 #mision{
   
-  background-image: url(../svg/planetas.png);
+  background-image: url(../svg/planetas.svg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 100%;
 }
 
 #ofertas {
@@ -80,6 +80,18 @@ ul li {
   height: 650px;
 }
 
+
+.ilustracion1{
+  width: 420px;
+  position: absolute;
+  top: 245px;
+  right: 10%;
+}
+
+.ilustracion2{
+  width: 700px;
+  margin-left: 50px;
+}
 
 /******* NAVBAR *******/
 
@@ -347,12 +359,19 @@ h2 {
 /******* CARDS *******/
 
 .container {
-
-  width: fit-content;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  
 }
+
+.container .card{
+  width: 450px;
+  margin-right: 180px;
+}
+
+
 
 .card {
   background: rgb(237, 30, 121);
@@ -406,7 +425,7 @@ h2 {
   width: 350px;
   height: 10px;
   border-radius: 20px;
-  transform: translate(0, 4300%);
+  transform: translate(0, 4000%);
 }
 
 .opciones {
@@ -525,14 +544,14 @@ footer p{
 
 @font-face {
   font-family: "Murs Gothic";
-  src: url(../fonts/mursgothic-widedark.ttf);
+  src: url(/fonts/mursgothic-widedark.ttf);
   font-style: bold;
   font-weight: bold;
 }
 
 @font-face {
   font-family: "Helvetica";
-  src: url(../fonts/Helvetica-Bold.ttf);
+  src: url(/fonts/Helvetica-Bold.ttf);
   font-style: bold;
   font-weight: bold;
 }
@@ -587,6 +606,25 @@ footer p{
   #indexContent{
     background-size: 80%;
   }
+
+  .ilustracion1{
+    width: 400px;
+    position: absolute;
+    top: 270px;
+    right: 5%;
+  }
+
+  .ilustracion2{
+    width: 600px;
+    margin-left: 50px;
+  }
+
+  .container .card{
+    width: 390px;
+    margin: 0 10px;
+  }
+  
+
 
   /******* TIULOS *******/
 
@@ -645,11 +683,6 @@ footer p{
 
   /******* EXTRA *******/
 
-  .blob {
-    width: 300px;
-    height: 300px;
-    right: 5%;
-  }
 
 
 
@@ -678,10 +711,53 @@ footer p{
   }
 }
 
+@media (max-width:1200px) {
+  .ilustracion1{
+    width: 370px;
+    position: absolute;
+    top: 270px;
+    right: 1%;
+  }
+
+  .ilustracion2{
+    width: 550px;
+    margin-left: 40px;
+  }
+
+  .container .card{
+    width: 380px;
+    margin: 0 10px;
+  }
+}
+
+
+
 @media (max-width: 1050px) {
 
   #indexContent{
     background-size: 100%;
+  }
+
+
+  .subtitulo{
+    width: 520px;
+  }
+
+  .ilustracion1{
+    width: 270px;
+    position: absolute;
+    top: 440px;
+    right: .2%;
+  }
+
+  .ilustracion2{
+    width: 450px;
+    margin-left: 30px;
+  }
+
+  .container .card{
+    width: 345px;
+    margin: 0 8px;
   }
 
 
@@ -725,10 +801,6 @@ footer p{
   }
 
     /******* EXTRAS *******/
-
-  .blob {
-    display: none;
-  }
 
   .cursorfx{
     display: none;
@@ -775,6 +847,23 @@ footer p{
     width: 660px;
   }
 
+  .ilustracion1{
+    width: 245px;
+    position: absolute;
+    top: 490px;
+    right: 0;
+  }
+
+  .ilustracion2{
+    width: 360px;
+    margin-left: 15px;
+  }
+
+  .container .card{
+    width: 250px;
+    height: 500px; 
+  }
+
   /******* TIULOS *******/
 
   .titulo{
@@ -793,8 +882,8 @@ footer p{
   }
 
   .subtitulo {
-    margin-top: 40px;
-    width: 600px;
+    margin: 40px 0;
+    width: 450px;
     font-size: 18px;
   }
 
@@ -973,6 +1062,24 @@ footer p{
     top: -100px;
   }
 
+  .ilustracion1{
+    width: 205px;
+    position: absolute;
+    top: 350px;
+    right: 0;
+  }
+
+  .ilustracion2{
+    width: 300px;
+    margin-left: 15px;
+  }
+
+  .container .card{
+    width: 220px;
+    height: 400px;
+    margin: 20px 5px 20px 0;
+  }
+
   /******* TIULOS *******/
 
   .titulo{
@@ -991,9 +1098,9 @@ footer p{
   }
 
   .subtitulo {
-    margin-top: 40px;
-    width: 450px;
-    font-size: 18px;
+    margin: 35px 0;
+    width: 360px;
+    font-size: 17px;
   }
 
   .sub3 {
@@ -1090,6 +1197,28 @@ footer p{
 }
 
 
+@media (max-width:590px) {
+  .ilustracion1{
+    width: 170px;
+    position: absolute;
+    top: 400px;
+    right: 0;
+  }
+
+  .ilustracion2{
+    width: 255px;
+    margin-left: 10px;
+  }
+
+  .container .card{
+    width: 220px;
+    height: 430px;
+    margin: 20px 5px 20px 0;
+  }
+
+}
+
+
 @media (max-width: 500px) {
 
   .margen{
@@ -1120,6 +1249,20 @@ footer p{
     top: -50px;
   }
 
+  .ilustracion1{
+    right: 2%;
+  }
+
+  .ilustracion2{
+    width: 220px;
+    margin-left: 10px;
+  }
+
+  .container .card{
+    width: 210px;
+    height: 400px;
+    margin: 20px 5px 20px 5px;
+  }
 
   /******* TIULOS *******/
 
@@ -1236,6 +1379,16 @@ footer p{
 
 }
 
+@media (max-width:460px) {
+  .ilustracion2{
+    position: absolute;
+    right: 1%;
+    width: 200px;
+    margin: 0;
+  }  
+}
+
+
 
 @media (max-width: 400px) {
 
@@ -1257,6 +1410,21 @@ footer p{
     left: -1%;
     top: -180px;
   }
+
+  .ilustracion1{
+    width: 140px;
+    position: absolute;
+    top: 390px;
+    right: 2%;
+  }
+
+  .ilustracion2{
+    position: relative;
+    width: 130px;
+    margin-left: 10px;
+  }  
+
+
 
   /******* TIULOS *******/
 
@@ -1296,8 +1464,8 @@ footer p{
   .container .card {
     font-size: 12px;
     aspect-ratio: 10/16;
-    width: 160px;
-    height: 380px;
+    width: 170px;
+    height: 400px;
     padding: 5px;
     border-radius: 16px;
     margin: 10px;
@@ -1413,6 +1581,13 @@ footer p{
     top: -180px;
   }
 
+  .ilustracion2{
+    position: relative;
+    width: 120px;
+    margin-left: 15px;
+  }  
+  
+
   /******* TIULOS *******/
 
   .titulo{
@@ -1451,10 +1626,10 @@ footer p{
     font-size: 12px;
     aspect-ratio: 10/16;
     width: 160px;
-    height: 380px;
+    height: 400px;
     padding: 5px;
     border-radius: 16px;
-    margin: 10px;
+    margin: 5px;
   }
 
   .container .card .card-body {
