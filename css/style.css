@@ -86,11 +86,13 @@ ul li {
   position: absolute;
   top: 245px;
   right: 10%;
+  animation: spawn 1.5s;
 }
 
 .ilustracion2{
   width: 700px;
   margin-left: 50px;
+  animation: spawn 2.2s;
 }
 
 /******* NAVBAR *******/
@@ -230,7 +232,6 @@ h2 {
   margin: 100px 0 100px 0;
   width: 650px;
   font-size: 22px;
-  
 }
 
 .sub3 {
@@ -414,6 +415,12 @@ h2 {
  
 }
 
+.card-logo{
+  width: 200px;
+  height: 200px;
+  margin: auto;
+}
+
 .divisor {
   background: rgb(255, 152, 49);
   background: linear-gradient(
@@ -425,7 +432,7 @@ h2 {
   width: 350px;
   height: 10px;
   border-radius: 20px;
-  transform: translate(0, 4000%);
+  transform: translate(0, 5600%);
 }
 
 .opciones {
@@ -645,6 +652,11 @@ footer p{
     font-size: 20px;
   }
 
+  .sub2{
+    width: 580px;
+    font-size: 21px;
+  }
+
   .sub3 {
     font-size: 20px;
   }
@@ -661,7 +673,6 @@ footer p{
   }
 
   .card-body {
-    background-color: #fff;
     width: 90%;
     height: 95%;
     padding: 5%;
@@ -671,7 +682,7 @@ footer p{
     width: 280px;
     height: 10px;
     border-radius: 20px;
-    transform: translate(0, 3250%);
+    transform: translate(0, 3800%);
   }
 
   .card a{
@@ -724,6 +735,13 @@ footer p{
     margin-left: 40px;
   }
 
+  .sub2{
+    width: 400px;
+    height: 400px;
+    font-size: 20px;
+  }
+
+
   .container .card{
     width: 380px;
     margin: 0 10px;
@@ -743,6 +761,12 @@ footer p{
     width: 520px;
   }
 
+  .sub2{
+    width: 390px;
+    font-size: 18px;
+  }
+
+
   .ilustracion1{
     width: 270px;
     position: absolute;
@@ -757,6 +781,7 @@ footer p{
 
   .container .card{
     width: 345px;
+    height: 600px;
     margin: 0 8px;
   }
 
@@ -771,14 +796,20 @@ footer p{
     margin: 90px;
   }
 
-  .card-body, .card-body2 {
+  .container .card .card-body {
+    width: 90%;
     height: 94%;
+    padding: 5%;
+  }
+
+  .card-body, .card-body2 {
+    height: 93.5%;
   }
 
   .divisor {
     width: 280px;
     height: 8px;
-    transform: translate(0, 3900%);
+    transform: translate(0, 5600%);
   }
 
   .opciones .card {
@@ -861,7 +892,7 @@ footer p{
 
   .container .card{
     width: 250px;
-    height: 500px; 
+    height: 650px; 
   }
 
   /******* TIULOS *******/
@@ -888,8 +919,8 @@ footer p{
   }
 
   .sub2{
-    font-size: 15px;
-    width: 80%;
+    width: fit-content;
+    margin: 80px 5px;
   }
 
   .sub3 {
@@ -908,6 +939,13 @@ footer p{
     margin: 70px;
   }
 
+  .container .card .card-body {
+    width: 90%;
+    height: 96%;
+    padding: 5%;
+  }
+
+
   .card-body, .card-body2 {
     width: 90%;
     height: 93%;
@@ -915,10 +953,10 @@ footer p{
   }
 
   .divisor {
-    width: 260px;
-    height: 10px;
+    width: 220px;
+    height: 7px;
     border-radius: 20px;
-    transform: translate(0, 2800%);
+    transform: translate(0, 6950%);
   }
 
   .card a{
@@ -1076,7 +1114,7 @@ footer p{
 
   .container .card{
     width: 220px;
-    height: 400px;
+    height: 550px;
     margin: 20px 5px 20px 0;
   }
 
@@ -1103,6 +1141,12 @@ footer p{
     font-size: 17px;
   }
 
+  .sub2{
+    width: auto;
+    font-size: 16px;
+    margin: 10px;
+  }
+
   .sub3 {
     font-size: 16px;
   }
@@ -1119,17 +1163,13 @@ footer p{
     margin: 50px 30px;
   }
 
-  .card-body, .card-body2 {
-    width: 90%;
-    height: 93%;
-    padding: 5%;
-  }
+
 
   .divisor {
     width: 200px;
-    height: 8px;
+    height: 6px;
     border-radius: 20px;
-    transform: translate(0, 3100%);
+    transform: translate(0, 6900%);
   }
 
   .card a{
@@ -1212,7 +1252,7 @@ footer p{
 
   .container .card{
     width: 220px;
-    height: 430px;
+    
     margin: 20px 5px 20px 0;
   }
 
@@ -1260,7 +1300,7 @@ footer p{
 
   .container .card{
     width: 210px;
-    height: 400px;
+    height: 510px;
     margin: 20px 5px 20px 5px;
   }
 
@@ -1291,6 +1331,12 @@ footer p{
     font-size: 14px;
   }
 
+  .sub2{
+    width: auto;
+    font-size: 15.5px;
+    margin: 60px 5px;
+  }
+
   .sub3 {
     font-size: 16px;
   }
@@ -1307,17 +1353,20 @@ footer p{
     margin: 20px;
   }
 
+
+
   .card-body, .card-body2 {
     width: 90%;
-    height: 94%;
+    height: 94.5%;
     padding: 5%;
   }
+  
 
   .divisor {
     width: 175px;
-    height: 6px;
+    height: 5px;
     border-radius: 20px;
-    transform: translate(0, 4100%);
+    transform: translate(0, 7800%);
   }
 
   .card a{
@@ -1325,6 +1374,11 @@ footer p{
     top: 0%;
     left: 0%;
     transform: translate(15%, -15%);;
+  }
+
+  .card-logo{
+    width: 150px;
+    height: 150px;
   }
 
   /******* EXTRA *******/
@@ -1453,6 +1507,11 @@ footer p{
     width: 320px;
     font-size: 14px;
   }
+  .sub2{
+    width: auto;
+    font-size: 14.5px;
+    margin: 60px 5px;
+  }
 
   .sub3 {
     font-size: 14px;
@@ -1465,7 +1524,7 @@ footer p{
     font-size: 12px;
     aspect-ratio: 10/16;
     width: 170px;
-    height: 400px;
+    height: 500px;
     padding: 5px;
     border-radius: 16px;
     margin: 10px;
@@ -1473,7 +1532,7 @@ footer p{
 
   .container .card .card-body {
     width: 90%;
-    height: 96%;
+    height: 96.5%;
     padding: 5%;
   }
 
@@ -1496,9 +1555,8 @@ footer p{
 
   .divisor {
     width: 140px;
-    height: 6px;
     border-radius: 20px;
-    transform: translate(0, 4250%);
+    transform: translate(0, 7600%);
   }
 
   .card a{
@@ -1506,6 +1564,12 @@ footer p{
     top: 0%;
     left: 0%;
     transform: translate(25%, -15%);;
+  }
+
+  .card-logo{
+    width: 120px;
+    height: 120px;
+    
   }
 
   /******* EXTRA *******/
@@ -1626,17 +1690,13 @@ footer p{
     font-size: 12px;
     aspect-ratio: 10/16;
     width: 160px;
-    height: 400px;
+    height: 540px;
     padding: 5px;
     border-radius: 16px;
     margin: 5px;
   }
 
-  .container .card .card-body {
-    width: 90%;
-    height: 96%;
-    padding: 5%;
-  }
+
 
   .opciones .card {
     font-size: 13px;
@@ -1648,6 +1708,11 @@ footer p{
     margin: 80px 40px;
   }
 
+
+  .divisor {
+  
+    transform: translate(0, 8200%);
+  }
 
   /******* EXTRA *******/
 

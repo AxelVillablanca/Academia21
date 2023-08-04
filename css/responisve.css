@@ -37,7 +37,32 @@
   #ofertas {
     margin: 150px 0 200px 0;
   }
+
+  .ilu1{
+    width: 450px;
+    height: 450px;
+  }
+  
+  .ilu2{
+    margin-top: 100px;
+    width: 600px;
+  }
 }
+
+
+@media (max-width: 1200px) {
+  .ilu1{
+    width: 410px;
+    height: 410px;
+  }
+
+  .ilu2{
+    margin-top: 100px;
+    width: 550px;
+  }
+}
+
+
 
 @media (max-width: 1050px) {
   #prueba {
@@ -48,6 +73,18 @@
   #ofertas {
     margin: 150px 0 150px 0;
   }
+
+  .ilu1{
+    width: 380px;
+    height: 380px;
+  }
+
+  .ilu2{
+    width: 400px;
+    height: 400px;
+    margin-left: 20px;
+  }
+
 }
 
 @media (max-width: 850px) {
@@ -59,6 +96,22 @@
   #ofertas {
     margin: 70px 0 100px 0;
   }
+
+  .box2{
+    margin-bottom: 200px;
+  }
+
+  .ilu1{
+    width: 320px;
+    height: 320px;
+    margin: 0;
+  }
+
+  .ilu2{
+    width: 25%;
+    margin-top: 15px;
+  }
+
 }
 
 @media (max-width: 650px) {
@@ -70,6 +123,19 @@
   #ofertas {
     margin: 50px 0 100px 0;
   }
+
+  .box2{
+    margin-bottom: 100px;
+  }
+
+  .ilu1{
+    width: 250px;
+    height: 250px;
+  }
+
+  .ilu2{
+    margin-top: 15px;
+  }
 }
 
 
@@ -80,6 +146,20 @@
 
   #ofertas {
     margin: 50px 0 80px 0;
+  }
+
+  .box2{
+    margin-bottom: 50px;
+  }
+
+  .ilu1{
+    width: 180px;
+    height: 180px;
+  }
+
+  .ilu2{
+    width: 20%;
+    margin-top: 5px;
   }
 }
 
@@ -94,6 +174,16 @@
     width: 340px;
     margin: 5px;
 
+  }
+
+  .ilu1{
+    width: 180px;
+    height: 180px;
+  }
+
+  .ilu2{
+    width: 25%;
+    margin-top: 15px;
   }
 
 
